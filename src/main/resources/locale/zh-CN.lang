@@ -1,0 +1,28 @@
+[ui]
+settlementunsafe=§6在不安全的条件下无法执行此操作\n§6有敌对玩家在定居点
+settlementenablepvp=启用 PvP
+settlementdisablepvp=禁用 PvP
+settlementactioncooldown=冷却中\n剩余时间： <time> 秒
+settlementconfirmnotice=你确定吗？
+settlementunclaimexplain=放弃定居将使其处于无管理状态，容易遭受攻击，并允许其他人认领
+settlementdestroyexplain=摧毁旗帜将取消你对定居的所有权，并允许其他人放置自己的旗帜
+settlementpvpexplain=启用定居 PvP 将允许所有玩家建造、摧毁和窃取你的定居\n仅在 5 分钟后才能禁用
+settlementexplosiondamage=防御区内的爆炸会损坏地块和物品
+settlementdestroyflag=摧毁旗帜
+settlementdestroybutton=摧毁
+settlementtakeover=接管定居
+settlementtakeoverexplain=接管此定居需要所有居民死亡，并且接管玩家不处于战斗状态！\n必须拥有 1x 认领卷轴
+takeoverbutton=认领<extra>
+
+[item]
+claimingscroll=认领卷轴
+
+[itemtooltip]
+claimingscroll=允许你在已认领的定居点启用 PvP 通过接近并与旗帜互动\n\n只有在满足认领条件的情况下才会认领定居点旗帜
+
+[controls]
+takeovertip=接管
+
+[misc]
+maxsettlementsflagreached=§6无法在单个定居中放置多个旗帜
+settlementhostileapproaching=§6<player> 正在靠近你的定居！

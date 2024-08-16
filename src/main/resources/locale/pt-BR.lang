@@ -1,0 +1,28 @@
+[ui]
+settlementunsafe=§6Ação não disponível em condições inseguras\n§6Um jogador hostil está atualmente no assentamento
+settlementenablepvp=Ativar PvP
+settlementdisablepvp=Desativar PvP
+settlementactioncooldown=Ação em espera\nTempo restante: <time>s
+settlementconfirmnotice=Você tem certeza?
+settlementunclaimexplain=Desmarcar um assentamento o deixará sem gerenciamento, vulnerável a ataques e disponível para que outros o reivindiquem
+settlementdestroyexplain=Destruiur uma bandeira removerá sua reivindicação do assentamento e permitirá que outros coloquem suas próprias bandeiras
+settlementpvpexplain=Ativar PvP no assentamento permitirá que todos os jogadores construam, destruam e roubem do seu assentamento\nVocê só pode desativar após 5 minutos
+settlementexplosiondamage=Explosões dentro da zona de defesa danificarão tiles e objetos
+settlementdestroyflag=Destruir Bandeira
+settlementdestroybutton=Destruir
+settlementtakeover=Reivindicar Assentamento
+settlementtakeoverexplain=Reivindicar este assentamento requer que todos os colonos estejam mortos e o jogador reivindicando não esteja em combate!\nDeve ter 1x Pergaminho de Reivindicação
+takeoverbutton=Reivindicar<extra>
+
+[item]
+claimingscroll=Pergaminho de Reivindicação
+
+[itemtooltip]
+claimingscroll=Permite que você reivindique um assentamento já reivindicado com PVP ativado\nao se aproximar da bandeira de assentamento e interagir com ela\n\nA reivindicação da bandeira de assentamento só será feita se\nas condições de reivindicação forem atendidas
+
+[controls]
+takeovertip=Assumir o controle
+
+[misc]
+maxsettlementsflagreached=§6Não é possível colocar várias bandeiras em um único assentamento
+settlementhostileapproaching=§6<player> está se aproximando do seu assentamento!
