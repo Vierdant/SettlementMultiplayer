@@ -29,7 +29,7 @@ public class SettlementFlagModObject extends SettlementFlagObject {
 
     @Override
     public ObjectEntity getNewObjectEntity(Level level, int x, int y) {
-        return new SettlementFlagModObjectEntity(level, x, y);
+        return new SettlementFlagModObjectEntity(level, x, y, this.texture);
     }
 
     @Override

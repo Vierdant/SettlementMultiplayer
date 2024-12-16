@@ -141,12 +141,12 @@ public class HumanMobHitPatch {
                     return out;
                 }
             } else if (attacker instanceof HumanMob) {
-                if (humanMob.isTravelingHuman()) {
+                if (humanMob.isVisitor()) {
                     out = false;
                     return out;
                 }
 
-                if (((HumanMob)attacker).isTravelingHuman()) {
+                if (((HumanMob)attacker).isVisitor()) {
                     out = false;
                     return out;
                 }

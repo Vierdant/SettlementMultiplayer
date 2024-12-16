@@ -3,7 +3,6 @@ package settlementmultiplayer.inventory.container;
 import necesse.engine.network.NetworkClient;
 import necesse.engine.network.Packet;
 import necesse.engine.network.server.ServerClient;
-import necesse.entity.TileDamageType;
 import necesse.inventory.container.customAction.BooleanCustomAction;
 import necesse.inventory.container.customAction.EmptyCustomAction;
 import necesse.inventory.container.settlement.SettlementContainer;
@@ -72,7 +71,7 @@ public class SettlementModContainer extends SettlementContainer {
             protected void run() {
                 int x = objectEntity.getTileX();
                 int y = objectEntity.getTileY();
-                getLevel().entityManager.doDamage(x, y, 100, TileDamageType.Object, -1, null);
+                getLevel().entityManager.doObjectDamage(objectEntity.getLevelObject().layerID, x, y, 100, -1, null, null);
                 close();
             }
         });

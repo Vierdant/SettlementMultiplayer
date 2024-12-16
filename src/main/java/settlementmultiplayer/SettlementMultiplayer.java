@@ -1,12 +1,12 @@
 package settlementmultiplayer;
 
 import necesse.engine.GameEvents;
-import necesse.engine.events.players.DamageTileEvent;
 import necesse.engine.events.players.ItemPlaceEvent;
 import necesse.engine.events.players.MobInteractEvent;
+import necesse.engine.events.players.ObjectDamageEvent;
 import necesse.engine.events.players.ObjectInteractEvent;
 import necesse.engine.modLoader.annotations.ModEntry;
-import settlementmultiplayer.listener.DamageTileSettlementListener;
+import settlementmultiplayer.listener.ObjectDamageSettlementListener;
 import settlementmultiplayer.listener.ItemPlaceSettlementListener;
 import settlementmultiplayer.listener.MobInteractSettlementListener;
 import settlementmultiplayer.listener.ObjectInteractSettlementListener;
@@ -39,7 +39,7 @@ public class SettlementMultiplayer {
     }
 
     private void addListeners() {
-        GameEvents.addListener(DamageTileEvent.class, new DamageTileSettlementListener());
+        GameEvents.addListener(ObjectDamageEvent.class, new ObjectDamageSettlementListener());
         GameEvents.addListener(ItemPlaceEvent.class, new ItemPlaceSettlementListener());
         GameEvents.addListener(ObjectInteractEvent.class, new ObjectInteractSettlementListener());
         GameEvents.addListener(MobInteractEvent.class, new MobInteractSettlementListener());

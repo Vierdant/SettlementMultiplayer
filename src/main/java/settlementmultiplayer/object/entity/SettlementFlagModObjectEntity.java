@@ -5,14 +5,15 @@ import necesse.engine.network.PacketWriter;
 import necesse.engine.save.LoadData;
 import necesse.engine.save.SaveData;
 import necesse.entity.objectEntity.SettlementFlagObjectEntity;
+import necesse.level.gameObject.ObjectDamagedTextureArray;
 import necesse.level.maps.Level;
 
 public class SettlementFlagModObjectEntity extends SettlementFlagObjectEntity {
     public long cooldown;
     private long startCooldownTime;
 
-    public SettlementFlagModObjectEntity(Level level, int x, int y) {
-        super(level, x, y);
+    public SettlementFlagModObjectEntity(Level level, int x, int y, ObjectDamagedTextureArray mapTexture) {
+        super(level, x, y, mapTexture);
         this.cooldown = 60000;
     }
 
